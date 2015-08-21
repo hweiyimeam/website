@@ -15,7 +15,7 @@ body {
 
 
 /* use special fonts in certain elements */
-h1,h2,h3,h4,.lead,.btn,.navbar a {
+h1,h2,h3,h4,h5,h6,.lead,.btn,.navbar a {
   text-transform:uppercase;
   font-family:'Voltaire',Arial,sans-serif;
   letter-spacing:2px;
@@ -23,15 +23,47 @@ h1,h2,h3,h4,.lead,.btn,.navbar a {
 
 h1 {
   font-size:50px;
+  font-style: bold;
+}
+
+h2 {
+  font-size:50;
+}
+
+h3 {
+font-size:36px;
+
+}
+
+h5 {
+  font-style:bold;
+  font-size: 30px;
+}
+
+h6 {/*company title*/
+  font-size:70px;
+  color:#194338;
+  font-style: bold;
+
+}
+
+
+p.lead{
+  font-color:#4ca6a6;
+}
+
+p.lead2{
+  font-color:#6254E5;
 }
 
 /* make images gray */
 img.grayscale {
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
- 
+ border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
 }
+
+
 
 
 
@@ -96,31 +128,41 @@ img.grayscale {
 .header h1 {
   font-size:80px;
   -webkit-text-stroke: 1px rgba(f,f,f,0.1);
-  color:#431a6d;
-  color:#fff;
+  color:#000000;
   margin-left:-5px;
   margin-bottom:5px;
   text-transform:uppercase;
+  text-transform:bold;
+
 }
 
 .header .lead {
-  color:#d46054;
+  color: #ffffff;
   font-size:25px;
 }
 
 .header {
   height: 80%;
-  background: #f68076 url('http://s915.photobucket.com/user/Restratify/media/header_zpswaaeudb9.jpg.html" target="_blank"><img src="http://i915.photobucket.com/albums/ac353/Restratify/header_zpswaaeudb9.jpg') repeat center center fixed;
+  background: #f68076 url('http://i915.photobucket.com/albums/ac353/Restratify/section_1_background_zpsxptyahcx.jpg') center center fixed;
+  background-size: cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+
+}
+
+.box {
+   border:2px solid gray;
+  display:inline;
 }
 
 /* use alt in navbar and header for different color */
 .alt {
-  background-color: #333333;
+  background-color: #B3E9A4;
 }
 
 /*mission statement*/
 .alt .lead {
-  color: #d6d6d6;
+  color: #B3E9A4;
 }
 
 .btn {
@@ -131,10 +173,11 @@ img.grayscale {
   background-color:#4C06AB;
 }
 
-.alt li a:hover, .alt li.active {
-  background-color:#5D17BA;
-}
 
+.alt li a:hover, .alt li.active {
+  background-color:#eeeeee;
+  color: #194338;
+}
 
 
 .blurb {
@@ -152,9 +195,11 @@ img.grayscale {
 }
 
 .featurette {
-  background: #222334;
+  background: #194338;
   padding: 50px 0;
   color: #ffffff;
+  font-family:'Voltaire',Arial,sans-serif;
+  letter-spacing:2px;
 }
 
 .featurette-item {
@@ -171,6 +216,9 @@ img.grayscale {
   line-height: 136px;
   vertical-align: middle; 
   text-align: center;
+  padding-left:20px;
+  padding-right:20px;
+
 }
 
 .featurette-item > i:hover {
@@ -178,7 +226,7 @@ img.grayscale {
 }
 
 .callout {
-  color: #000000;
+  color: #194338;
   padding-top:7%;
   height: 100%;
   width: 100%;
@@ -187,6 +235,8 @@ img.grayscale {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  vertical-align: center;
+
 
 }
 

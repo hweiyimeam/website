@@ -45,7 +45,7 @@ h6 {/*company title*/
   color:#004D00;
   font-style: bold;
   position: relative;
-  top: 30px;
+  top: 35px;
   text-align: center;
 
 }
@@ -165,7 +165,7 @@ img.grayscale {
 .alt .lead {
   color: #4c824c;
   position: relative;
-  top:70px;
+  top:55px;
 }
 
 .btn {

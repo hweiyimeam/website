@@ -45,7 +45,7 @@ h6 {/*company title*/
   color:#004D00;
   font-style: bold;
   position: relative;
-  top: 80px;
+  top: 60px;
   text-align: center;
 
 }
@@ -132,11 +132,11 @@ img.grayscale {
   font-size:80px;
   -webkit-text-stroke: 1px rgba(f,f,f,0.1);
   color:#000000;
-  margin-left:-5px;
-  margin-bottom:5px;
+  text-align: center;
   text-transform:uppercase;
   text-transform:bold;
-
+  position: relative;
+  top: 90px;
 }
 
 .header .lead {

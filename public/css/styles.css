@@ -52,7 +52,7 @@ h6 {/*company title*/
 
 
 p.lead{
-  font-color:#4ca6a6;
+  font-color:#004d00;
 }
 
 p.lead2{
@@ -135,8 +135,6 @@ img.grayscale {
   text-align: center;
   text-transform:uppercase;
   text-transform:bold;
-  position: relative;
-  top: 150px;
 }
 
 .header .lead {
@@ -165,7 +163,9 @@ img.grayscale {
 
 /*mission statement*/
 .alt .lead {
-  color: #B3E9A4;
+  color: #4c824c;
+  position: relative;
+  top:105px;
 }
 
 .btn {

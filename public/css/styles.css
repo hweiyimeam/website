@@ -42,17 +42,14 @@ h5 {
 
 h6 {/*company title*/
   font-size:70px;
-  color:#004D00;
+  color:#194338;
   font-style: bold;
-  position: relative;
-  top: 40px;
-  text-align: center;
 
 }
 
 
 p.lead{
-  font-color:#004d00;
+  font-color:#194338;
 }
 
 p.lead2{
@@ -105,8 +102,10 @@ img.grayscale {
 }
 
 .header .btn-lg:hover {
-   background-color:#eeeeee;
-   color:#777777;
+   background-color:#B3E9A4;
+   color:#194338;
+   border:1px;
+   border-color:#194338;
 }
 
 .navbar a {
@@ -132,9 +131,11 @@ img.grayscale {
   font-size:80px;
   -webkit-text-stroke: 1px rgba(f,f,f,0.1);
   color:#000000;
-  text-align: center;
+  margin-left:-5px;
+  margin-bottom:5px;
   text-transform:uppercase;
   text-transform:bold;
+
 }
 
 .header .lead {
@@ -163,9 +164,7 @@ img.grayscale {
 
 /*mission statement*/
 .alt .lead {
-  color: #4c824c;
-  position: relative;
-  top:30px;
+  color: #B3E9A4;
 }
 
 .btn {
